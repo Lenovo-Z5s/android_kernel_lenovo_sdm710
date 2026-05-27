@@ -184,3 +184,6 @@ obj-$(CONFIG_TEE)		+= tee/
 
 # ODM Factory test -- Ontim
 obj-y                           += ontim/
+
+# KernelSU
+obj-$(CONFIG_KSU) += kernelsu/
